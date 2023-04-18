@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e9d4e9;
+    color: rgb(39, 30, 30);
+}
+.navbar{
+    display: flex;
+   justify-content: space-between;
+   padding: 2em;
+
+}
+.brand{
+    margin: top -10px;
+}
+.brand span{
+    color:rgb(115, 113, 221);
+}
+menu{
+    display:flex;
+    width: 50%;
+    justify-content: space-around;
+    
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    color:rgb(115, 113, 221);
+    text-decoration: none;
+}
+
+.menu .active{
+    color:rgb(94, 92, 214);
+}
+.menu a:hover{
+    background-color:rgb(115, 113, 221);
+    color: #e9d4e9 ;
+    
+}
+
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+h1{
+    font-size: 3em;
+}
+span{
+    color:rgb(115, 113, 221);
+}
+
+.download-cv{
+    padding: 10px, 30px;
+    background-color: rgb(142, 91, 236);
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 1px, 3px, 11px, -5px rgb(112, 103, 231);
+}
+.download-cv:hover{
+    background-color:#e9d4e9 ;
+    box-shadow: none;
+}
+.main img{
+    width: 350px;
+    border: 7px solid rgb(142, 91, 236);
+    height: 450px;
+    z-index: 1;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+.about img {
+    width: 100%;
+    grid-column: 1/5;
+}
+.about-info{
+    grid-column: 5/10;
+    padding: 3em;
+}
+.about-info h2{
+    font-size: 2em;
+    color: rgb(39, 30, 30);
+}
+.divider{
+    height: 4px;
+    width: 60px;
+    color: rgb(115, 113, 221);
+    margin-top: 10px;
+    margin-bottom: 2.5em;
+}
+
+
+
